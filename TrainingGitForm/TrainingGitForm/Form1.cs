@@ -16,5 +16,18 @@ namespace TrainingGitForm
         {
             InitializeComponent();
         }
+
+        private void btn1_Click(object sender, EventArgs e)
+        {
+            if (btn1.Text.ToUpper() == "PELLE PLUTT")
+            {
+                btn1.Text = "Tog ett skutt";
+            }
+            else
+            {
+                btn1.Text = "Pelle Plutt";
+            }
+            
+        }
     }
 }
