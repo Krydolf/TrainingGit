@@ -22,10 +22,13 @@ namespace TrainingGitForm
             if (btn1.Text.ToUpper() == "PELLE PLUTT")
             { 
                 btn1.Text = "Tog ett skutt";
+                button1.Visible = true;
+
             }
             else
             {
                 btn1.Text = "Pelle Plutt";
+                button1.Visible = false;
             }
             
         }
